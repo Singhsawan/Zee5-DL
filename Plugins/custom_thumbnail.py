@@ -11,7 +11,7 @@ from PIL import Image
 from pyrogram import Client, filters
 
 from script import script
-from database.database import *
+from Database.database import *
 
 
 @Client.on_message(filters.photo)
