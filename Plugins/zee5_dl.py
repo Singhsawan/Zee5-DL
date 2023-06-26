@@ -21,7 +21,7 @@ else:
     from config import Config
 
 from script import script
-from database.database import *
+from Database.database import *
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
